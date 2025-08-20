@@ -1,6 +1,6 @@
 -- database: ./db.sqlite
 
-CREATE TABLE cursos (id, nome, aulas);
+CREATE TABLE produtos (id, nome, preco);
 
 DROP TABLE cursos;
 
@@ -10,9 +10,10 @@ CREATE TABLE cursos(
     aulas INTEGER
 );
 
-PRAGMA TABLE_INFO('cursos');
+PRAGMA TABLE_INFO('produtos');
 
-SELECT * FROM cursos;
+SELECT * FROM produtos;
 
-INSERT INTO cursos (id, nome, aulas) VALUES (1, 'HTML', 10);
+INSERT INTO produtos (id, nome, preco) VALUES (1, 'Notebook', 1000);
 
+INSERT INTO c
